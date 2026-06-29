@@ -4,7 +4,7 @@ paddlepaddle==2.6.2
 paddleocr==2.7.3
 opencv-python-headless
 Pillow
-numpy
+numpy==1.26.4
 openai==1.51.0
 python-multipart==0.0.12
 pydantic==2.9.2
