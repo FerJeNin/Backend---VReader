@@ -27,7 +27,7 @@ def get_ocr_engine() -> PaddleOCR:
         logger.info("Inicializando PaddleOCR PP-OCRv5...")
         _ocr_engine = PaddleOCR(
             use_angle_cls=True,
-            lang="es",
+            lang="en",
             show_log=False,
             use_gpu=False,          # Cambiar a True si el servidor tiene GPU
             ocr_version="PP-OCRv4", # PP-OCRv5 usa este alias en paddleocr>=2.8
