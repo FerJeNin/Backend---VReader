@@ -28,7 +28,8 @@ def get_ocr_engine() -> PaddleOCR:
         _ocr_engine = PaddleOCR(
             use_angle_cls=True,
             lang="en",
-            show_log=False
+            show_log=False,
+            use_gpu=False,
         )
         logger.info("PaddleOCR listo.")
     return _ocr_engine
