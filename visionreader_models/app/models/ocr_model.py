@@ -30,7 +30,6 @@ def get_ocr_engine() -> PaddleOCR:
             lang="en",
             show_log=False,
             use_gpu=False,          # Cambiar a True si el servidor tiene GPU
-            ocr_version="PP-OCRv4", # PP-OCRv5 usa este alias en paddleocr>=2.8
         )
         logger.info("PaddleOCR listo.")
     return _ocr_engine
