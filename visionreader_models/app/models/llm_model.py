@@ -16,7 +16,7 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # Modelo por defecto. Puedes cambiar a cualquiera disponible en OpenRouter:
 # "google/gemini-flash-1.5", "meta-llama/llama-3.1-8b-instruct:free", etc.
-DEFAULT_MODEL = "openai/gpt-4o-mini"
+DEFAULT_MODEL = "deepseek/deepseek-r1:free"
 
 # Límites
 MAX_TOKENS_SUMMARY = 512
